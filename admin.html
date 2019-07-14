@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SGP | Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/recbook.css">
+	<link rel="icon" href="img/sgp1.png">
+</head>
+<body>
+<script  src="js/jquery.js"></script>
+	<script src="js/pagelay.js">
+		
+	</script>
+	
+		<div class="container1">
+	<div class="header">
+		<div class="clg-name-logo">
+			<img class="clg-logo" src="img/sgp1.png" alt="image" height="55" width="55"></img>
+			<span class="clg-name">SGP</span>
+		</div>
+		<div class="user-menu">
+			<i class=""></i>
+			<span class="user-name"><i class="fa fa-user"></i>&nbsp;&nbsp; User || Admin</span>
+		</div>
+	</div>
+	<div class="aside-area">
+		<div class="version-name">
+			<span class="version-text">SGPL 1.0</span>
+		</div>
+		<div class="select-area">
+			<a class="select-text pannel-button" data-pannelid="" href="#"><i class="fas fa-tachometer-alt "></i><span>&nbsp;&nbsp;DashBoard</span></a>
+			<a class="select-text pannel-button" data-pannelid="issue" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;Issue Book</a>
+            <a class="select-text pannel-button"  data-pannelid="Receivebook" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;Receive Book</a>
+            <a class="select-text pannel-button"  data-pannelid="New_entry" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;New Entry</a>
+			<a class="select-text pannel-button" data-pannelid="Bookl" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;Book List</a>
+			<a class="select-text pannel-button" data-pannelid="Issuereg" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;Issue Register</a>
+			<a class="select-text pannel-button"  data-pannelid="recreg" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;Receive Register</a>
+			<a class="select-text pannel-button"  data-pannelid="" href="#"><i class="fas fa-book "></i>&nbsp;&nbsp;About</a>
+			<!--Extra Link Add Here-->
+		</div>
+	</div>
+	<div class="pannel" id="Bookl" >
+	<div class="all-book-area   ">
+			<div class="book-name"><span>Book List</span></div>
+			<div class="book-input">
+			<form class="input-form-i">
+				
+				<input class="input-text-i" type="text" name="Book_Id" placeholder="Book Id">
+				<input class="input-text-i" type="text" name="ISBN" placeholder="ISBN">
+				<input class="input-text-i" type="Title" name="title" placeholder="Title">
+				<input class="input-text-i" type="Auther" name="auther" placeholder="Auther">
+				<select class="select">
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+					<option value="" selected="Book Catagory">Option</option>
+				</select>
+				<input type="Submit" name="search" value="Search" class="search">
+
+			</form>
+			 <div class="overflow-div">
+      <table class="table table-hover">
+					<div>
+					 <thead>
+					    <tr class="sticky-top" style="background-color: lightgray;">
+					      <th scope="col">#</th>
+					      <th scope="col">Book ID</th>
+					      <th scope="col">ISBN</th>
+					      <th scope="col">Title</th>
+					 	  <th scope="col">Subtitle</th>
+					 	  <th scope="col">Author </th>
+					 	  <th scope="col">Edition</th>
+					 	  <th scope="col">Edition Year</th>
+					 	  <th scope="col">Publisher</th>
+					 	  <th scope="col"> Availability</th>
+					    </tr>
+					  </thead>
+					</div>
+					 
+					 
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					    </tr>
+					    
+						
+				
+				</table>
+		</div>
+			
+             <select>
+             	<option>10</option>
+             	<option>20</option>
+             	<option>50</option>
+             	<option>100</option>
+             </select>
+            <button></button>
+            <button></button>
+            <span>Page</span>
+            <input type="text" name="page">
+            <button></button>
+            <button></button>
+            <button></button>
+		</div>
+		</div>
+			
+	</div>
+
+
+<div  class="pannel" id="Issuereg" >
+
+<div class="all-book-area  ">
+			<div class="book-name"><span>Issue Register</span></div>
+			<div class="book-input">
+			<form class="input-form-i">
+				  
+			<select class="select">
+				  		<option value="" selected="Department">Students</option>
+					<option value="CST" >Teachers</option>
+				  	</select>
+				    	<input  class="select"type="text" name=""
+				    	placeholder="CardNo">
+				<select class="select">
+					<option value="" selected="Department">Department</option>
+					<option value="CST" >C.S.T</option>
+					<option value="Civil" >Civil</option>
+					<option value="Arch" >Arch</option>
+					<option value="EIE" >E.I.E</option>
+					<option value="ETC" >E.T.C</option>
+					<option value="EE">E.E</option>
+			</select>
+			<select class="select">
+					<option value="" selected="Year">Year</option>
+					<option value="1styear" >1st Year</option>
+					<option value="2ndyear" >2nd Year</option>
+					<option value="3rdyear" >3rd Year</option>
+				</select>
+			<select class="select">
+					<option value="" selected="Time">Time</option>
+					<option value="1week" selected="1week" >1 Week</option>
+					<option value="1month" >1 Month</option>
+					<option value="2months" >2 Months</option>
+					<option value="1sem" >1 Semester</option>
+					<option value="1year" >1 Year</option>
+					<option value="Lifetime">Lifetime</option>
+			</select>
+              <input type="Submit" name="search" value="Search" class="search">
+          
+			</form>
+			<form>
+			<div class="overflow-div">
+			<table class="table table-hover">
+				
+					<div>
+					 <thead>
+					    <tr class="sticky-top" style="background-color: lightgray;">
+					      <th scope="col">#</th>
+
+					      <th scope="col">Book ID</th>
+					      <th scope="col">ISBN</th>
+					      <th scope="col">Title</th>
+					 	  
+					 	  <th scope="col">Author </th>
+					 	  <th scope="col">Edition</th>
+					 	  <th scope="col">Issued By</th>
+					 	  <th scope="col">Issued On</th>
+					 	  
+					    </tr>
+					  </thead>
+					  <tr>
+					      <th scope="row">1</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					    </tr>
+					     <tr>
+					      <th scope="row">2</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					    </tr>
+					     <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      
+					    </tr>
+					 
+				</div>		
+				
+				</table>
+			</div>
+				<select>
+             	<option>10</option>
+             	<option>20</option>
+             	<option>50</option>
+             	<option>100</option>
+             </select>
+            <button></button>
+            <button></button>
+            <span>Page</span>
+            <input type="text" name="page">
+            <button></button>
+            <button></button>
+            <button></button>
+
+</div>
+     </form>
+		</div>
+	</div>
+
+	</div>
+	<div class="pannel" id="Receivebook">
+<div class="all-book-area">
+		<div class="book-name"><span>Receive Books</span></div>
+		<div class="book-input">
+
+			<form class="input-form-i">
+        <div class="alignsea">
+	  <select class="select" >
+	  	<option>Student</option>
+	  	<option>Teacher</option>
+	  </select>
+	  <input class="input-text-i" type="text" name="Card" placeholder="Card No">
+	  <span>or</span>
+	  <input class="input-text-i" type="text" name="Accession" placeholder="Accession No">
+	  <input type="Submit"  name="searchdet" value="Search" class="search">
+	  <input type="reset" value="clear" class="search btn-warning">
+	</div>
+
+	</form>
+	<form>
+	 <div class="overflow-div">
+	 
+      <table class="table table-hover">
+					<div>
+					 <thead>
+					    <tr class="sticky-top" style="background-color: lightgray;">
+					      <th scope="col">#</th>
+
+					      <th scope="col">Book ID</th>
+					      <th scope="col">ISBN</th>
+					      <th scope="col">Title</th>
+					 	  
+					 	  <th scope="col">Author </th>
+					 	  <th scope="col">Edition</th>
+					 	  <th scope="col">Issued By</th>
+					 	  <th scope="col">Issued On</th>
+					 	  
+					    </tr>
+					  </thead>
+					  <tr>
+					      <th scope="row">1</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					    </tr>
+					     <tr>
+					      <th scope="row">2</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					    </tr>
+					     <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      
+					    </tr>
+					 
+						
+				
+				</table>
+
+					</div>
+					<div class="alignsea1" >
+				<input type="Submit" value="Receive" class="search btn-success">
+					
+				</div>
+				</form>
+           
+        </div>
+	          </div>
+
+	</div>
+
+
+	<div class="pannel" id="issue">
+		<div class="all-book-area issue ">
+			<div class="book-name"><span>Issue Book</div>
+			<div class="book-input">
+				<div class="alignse">
+			<form class="input-form-i">
+				          	
+		
+				    <select class="select" >
+	  	            <option>Student</option>
+	  	             <option>Teacher</option>
+	                   </select>
+
+	                    <input class="input-text-i" type="text" name="Card" placeholder="Card No">
+	  
+	                    <input type="submit"  name="searchdet" value="Search" class="search">
+	                     <input type="reset" value="clear" class="search btn-warning"><br/><br/>
+	              	      </form>
+	            <form >
+                <input class="input-text-i" type="text" name="Accession_No" placeholder="Accession No "><span> or </span>
+				<input class="input-text-i" type="text" name="ISBN" placeholder="ISBN"><span> or </span>
+				<input class="input-text-i" type="text" name="Bookid" placeholder="Book ID">
+				  <input type="Submit"  name="searchdet" value="Add" class="search"><br>
+			<br></form>
+		</div>
+				<div class="alignsea">
+	              	<span style="position: absolute; left: 5%;">Name:</span>
+	               <span style="position: absolute; left: 27%;">Dept:</span><br/>
+	                <span style="position: absolute; left: 5%; top:40%;">Year:</span>
+	                  <span style="position: absolute; left: 27%; top:40%;">Card No:</span>
+	                  <br/><br/>
+                    	</div>  	
+			
+				<form >
+					 <div class="overflow-div1">
+	 
+				<table class="table table-hover">
+					
+					 <thead>
+					    <tr class="sticky-top" style="background-color: lightgray;">
+					      <th scope="col">#</th>
+					      <th scope="col">Book ID</th>
+					      <th scope="col">ISBN</th>
+					      <th scope="col">Title</th>
+					 	  <th scope="col">Subtitle</th>
+					 	  <th scope="col">Author </th>
+					 	  <th scope="col">Edition</th>
+					 	  <th scope="col">Edition Year</th>
+					 	  <th scope="col">Publisher</th>
+					 	  <th scope="col"> Availability</th>
+					    </tr>
+					  </thead>
+					
+					 
+					 
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					    </tr>
+					    
+						
+				
+				
+				</table>
+		</div>
+                 <div class="alignsea1" >
+				<input type="Submit" value="Issue" class="search btn-success">
+					<input type="reset" value="Clear" class="search btn-danger">
+				</div>
+				
+				  
+     </form>
+		</div>
+	</div>
+
+
+
+	</div>
+
+<div class="pannel" id="New_entry"> 
+	
+	<div class="all-book-area">
+			<div class="book-name"><span>NEW BOOK ENTRY</span></div>
+			<div class="book-input">
+			<form class="input-form-i ">
+			<!--	<div class="extra">
+				<span>Barcode Id</span>
+				<input class="input-text-i" type="text">
+				<span>Assecion No</span>
+				<input class="input-text-i"type="text"></br></br>
+
+				<span>Title</span>
+				<input class="input-text-i" type="text">
+
+				<span>Author</span>
+				<input class="input-text-i"type="text">
+
+
+				<span>Pages</span>
+				<input class="input-text-i"type="text"><br/><br/>
+
+
+				<span>Subject</span>
+				<input class="input-text-i"type="text">
+				<span>Edition</span>
+				<input  class="input-text-i"type="text"></br></br>
+
+
+				<span>Topic</span>
+				<input class="input-text-i" type="text">
+				<span>Vol</span>
+				<input class="input-text-i" type="text"></br></br>
+
+
+				<span>Book no</span>
+				<input class="input-text-i" type="text">
+				<span>Source</span>
+				<input class="input-text-i" type="text"></br></br>
+
+
+
+				<span>Cost</span>
+				<input class="input-text-i" type="text">
+				<span>Remark</span>
+				<input class="input-text-i"type="text"></br></br>
+
+
+
+				<span>Publisher</span>
+				<input class="input-text-i" type="text">
+				<span>Year</span>
+				<input class="input-text-i" type="text"></br></br>
+
+
+				<span>Isbn</span>
+				<input class="input-text-i"type="text">
+				<span>Bill no</span>
+				<input class="input-text-i"type="text"></br></br>
+                 </div>-->
+                
+<div class="alignsea1" >
+
+				<input type="Submit" name="Save" value="SAVE" class="search">
+				<input type="reset" name="Clear" value="EXIT" class="search btn-danger">
+</div>
+			</form>
+	
+      
+		</div>
+			
+            
+		</div>
+		</div>
+</div>
+
+	<div class="pannel" id="recreg">
+
+<div class="all-book-area   ">
+			<div class="book-name"><span>Received Register</span></div>
+			<div class="book-input">
+			<form class="input-form-i">
+				  
+				  	<select class="select">
+				  		<option value="" selected="Department">Students</option>
+					<option value="CST" >Teachers</option>
+				  	</select>
+				    	<input  class="select"type="text" name=""
+				    	placeholder="CardNo">
+				<select class="select">
+					<option value="" selected="Department">Department</option>
+					<option value="CST" >C.S.T</option>
+					<option value="Civil" >Civil</option>
+					<option value="Arch" >Arch</option>
+					<option value="EIE" >E.I.E</option>
+					<option value="ETC" >E.T.C</option>
+					<option value="EE">E.E</option>
+			</select>
+			<select class="select">
+					<option value="" selected="Year">Year</option>
+					<option value="1styear" >1st Year</option>
+					<option value="2ndyear" >2nd Year</option>
+					<option value="3rdyear" >3rd Year</option>
+				</select>
+			<select class="select">
+					<option value="" selected="Time">Time</option>
+					<option value="1week" selected="1week" >1 Week</option>
+					<option value="1month" >1 Month</option>
+					<option value="2months" >2 Months</option>
+					<option value="1sem" >1 Semester</option>
+					<option value="1year" >1 Year</option>
+					<option value="Lifetime">Lifetime</option>
+			</select>
+              <input type="Submit" name="search" value="Search" class="search">
+          
+			</form>
+			<form>
+			<div class="overflow-div">
+			<table class="table table-hover">
+				
+					<div> 	
+					<tr style="background-color: lightgray;">
+
+					      <th scope="col">#</th>
+
+					      <th scope="col">Book ID</th>
+					      <th scope="col">ISBN</th>
+					      <th scope="col">Title</th>
+					 	  
+					 	  <th scope="col">Author </th>
+					 	  <th scope="col">Edition</th>
+					 	  <th scope="col">Issued On</th>
+					 	  <th scope="col">Issued To</th>
+					 	  <th scope="col">Received On</th>
+					    </tr>
+					
+					  
+					
+					  <tr>
+					      <th scope="row">1</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+					    </tr>
+					     <tr>
+					      <th scope="row">2</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+					    </tr>
+					     <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+					       </tr>
+					     <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+
+
+					        </tr>
+					        <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+
+
+					         </tr>
+					        <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+
+
+                            </tr>
+					        <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+                           
+
+
+
+                             </tr>
+					        <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+
+
+
+					         </tr>
+					        <tr>
+					      <th scope="row">3</th>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					      <td>Edit</td>
+					       <td>Edit</td>
+
+
+  					    </tr>
+					 
+				</div>		
+				
+				</table>
+			</div>
+				<select>
+             	<option>10</option>
+             	<option>20</option>
+             	<option>50</option>
+             	<option>100</option>
+             </select>
+            <button></button>
+            <button></button>
+            <span>Page</span>
+            <input type="text" name="page">
+            <button></button>
+            <button></button>
+            <button></button>
+
+</div>
+     </form>
+		</div>
+	</div>
+
+</div>
+	<div class="footer">
+			<span class="footer-text">SGPL 1.0 by CST 2nd Year</span>
+		</div>
+	</div>
+
+</body>
+</html>

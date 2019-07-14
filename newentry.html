@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SGP | Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="icon" href="img/sgp1.gif">
+	<script src="jquirey/jquery.min.js"></script>
+	<script >
+		$(document).ready(function(){
+  $("button").click(function(){
+    $(".toggle").toggle();
+  });
+});
+	</script>
+</head>
+<body>
+	<div class="container1">
+	<div class="header">
+		<div class="clg-name-logo">
+			<img class="clg-logo" src="sgp_logo.png">
+			<span class="clg-name">SGP</span>
+		</div>
+		<div class="user-menu">
+			<i class=""></i>
+			<span class="user-name"><i class="fa fa-user"></i>&nbsp;&nbsp; User || Admin</span>
+		</div>
+	</div>
+	<div class="aside-area">
+		<div class="version-name">
+			<span class="version-text">SGPL 1.0</span>
+		</div>
+		<div class="select-area">
+			<a class="select-text" href="#"><i class="fas fa-tachometer-alt"></i><span>&nbsp;&nbsp;DashBoard</span></a>
+			<button class="select-text" href="#"><i class="fas fa-book"></i><span>&nbsp;&nbsp;NewbookEntry</span></button>
+			<a class="select-text" href="#"><i class="fas fa-book"></i><span>&nbsp;&nbsp;Book</span></a>
+			<!--Extra Link Add Here-->
+		</div>
+	</div>
+	<div class="toggle">
+	<div class="all-book-area">
+			<div class="book-name"><span>NEW BOOK ENTRY</span></div>
+			<div class="book-input">
+			<form class="input-form-i">
+				<span>Barcode Id</span>
+				<input class="ass1" type="text">
+				<span>Assecion No</span>
+				<input class="ass1"type="text"></br></br>
+
+				<span>Title</span>
+				<input class="ass1" type="text"></br></br>
+
+
+				<span>Author</span>
+				<input class="ass1"type="text"></br></br>
+
+
+				<span>Pages</span>
+				<input class="ass1"type="text"></br></br>
+
+
+				<span>Subject</span>
+				<input class="ass1"type="text">
+				<span>Edition</span>
+				<input  class="ass1"type="text"></br></br>
+
+
+				<span>Topic</span>
+				<input class="ass1" type="text">
+				<span>Vol</span>
+				<input class="ass1" type="text"></br></br>
+
+
+				<span>Book no</span>
+				<input class="ass1" type="text">
+				<span>Source</span>
+				<input class="ass1" type="text"></br></br>
+
+
+
+				<span>Cost</span>
+				<input class="ass1" type="text">
+				<span>Remark</span>
+				<input class="ass1"type="text"></br></br>
+
+
+
+				<span>Publisher</span>
+				<input class="ass1" type="text">
+				<span>Year</span>
+				<input class="ass1" type="text"></br></br>
+
+
+				<span>Isbn</span>
+				<input class="ass1"type="text">
+				<span>Bill no</span>
+				<input class="ass1"type="text"></br></br>
+
+
+
+				<input type="Submit" name="SAVE" value="SAVE" class="search">
+				<input type="reset" name="EXIT" value="EXIT" class="search">
+
+			</form>
+			 <div class="overflow-div">
+      <table class="table table-hover">
+		
+				
+				</table>
+		</div>
+			<!--<div class="table">
+					<tr>
+                        <th field="id" sortable="true">Book ID</th>                                                         
+                        <th field="isbn" sortable="true">ISBN </th>
+                        <th field="status" formatter="availability_check">Availability </th>
+                        <th field="title" sortable="true">Title </th>
+                        <th field="subtitle" sortable="true">Subtitle </th>
+                        <th field="author" sortable="true">Author </th>
+                        <th field="edition" sortable="true">Edition </th>
+                        <th field="edition_year" sortable="true">Edition Year </th>
+                        <th field="publisher" sortable="true">Publisher </th>                     
+                        <th field="publishing_year" sortable="true">Publication Year </th>                     
+                        <th field="size1" sortable="true">Size </th>
+                        <th field="pdf" formatter="action_read">Read Online </th>
+                        <th field="view" formatter="action_column">Actions </th>                    
+             		</tr>
+             </div>-->
+      
+            
+		</div>
+		</div>
+		<div class="footer">
+			<span class="footer-text">SGPL 1.0 by CST 2nd Year</span>
+		</div>	
+	</div>
+</div>
+</body>
+</html>

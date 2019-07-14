@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	background-color: #3c8dbc;
+	position: relative;
+}
+.clg-name-logo{
+	position: relative;
+	background-color: #367fa9;
+	width: 19.5%;
+}
+.clg-logo{
+	padding-left: 4px;
+padding-top:2%; 
+padding-bottom:2%;
+padding-right:0%;
+}
+.clg-name{
+	font-weight: bolder;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+	font-size: 40px;
+   position: absolute;
+padding-left: 2%;
+}
+.user-menu{
+	top: 0px;
+	position: absolute;
+	right: 0;
+	padding: 10px;
+}
+.user-name{
+	font-size: 15px;
+	color: white;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.version-name{
+	width: 19.5%;
+	background-color: #1a2226;
+	padding:1% 0% 1% 12%;
+}
+.version-text{
+	padding:1% 1% 0% 0%;
+	color: #2f526f;
+	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 16px;
+}
+.select-area{
+position:absolute;
+	width: 19.5%;
+	height: 80.3%;
+	background-color: #222d32;
+}
+.select-text{
+	text-decoration: none;
+	display: flex;
+	color: #b8c7ce;
+	padding: 15px 40px 15px 40px;
+	border-left:  3px solid transparent;
+	font-family:  'Poppins', sans-serif;
+}
+.select-text:hover{
+	color: white;
+	border-left: 3px solid blue;
+	background-color: #1e282c;
+	text-decoration: none;
+}
+.all-book-area{
+	position:absolute;
+        left:20%;
+	top: 70px;
+       
+	width: 80%;
+
+	right: 0px;
+}
+.book-name{
+	color: black;
+	font-size: 30px;
+	font-family: 'Source Sans Pro',sans-serif;
+}
+.book-input{
+	border: 1px solid gray;
+	width: 95%;
+	height: 70%;
+
+}
+.input-form-i{
+	margin:44px 20px 2px 20px;
+}
+.input-text-i{
+	width: 138px;
+	height: 21px;
+	font-family:'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	padding: 16px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+}
+.select{
+	height: 33px;
+padding: 2px 26px 4px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+}
+.search{
+	background-color: #00c0ef;
+	color: white;
+	border: none;
+	width: 68px;
+	height: 33px;
+	font-family: sans-serif;
+	font-size:16px;
+	border-color: #269abc;
+}
+.search:hover{
+	background-color: #00acd6;
+}
+.footer{
+	width: 100%;
+	height: 22px;
+	background-color:
+
+}
+.overflow-div{
+	overflow-y: scroll; 
+	height: 435px;
+}
+.footer-text{
+	position: absolute;
+	bottom: 0%;
+}
